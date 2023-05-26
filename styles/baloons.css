@@ -11,6 +11,7 @@ h1 {
     border: 1px solid #4c0072;
     background-color: #f0e6f5;
     padding: .5em;
+    margin-bottom: 0;
 }
 
 h2,
@@ -56,4 +57,25 @@ a:hover {
     font-size: 1.5em;
     color: #72005f;
     font-style: italic;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #D9EECE;
+    border: 1px solid #4c0072;
+    display: flex;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #226800;
+    font-weight: bold;
+    display: block;
+    padding: .75em 1em;
+}
+
+.navigation a:hover {
+    background-color: #C4E8B1;
 }
