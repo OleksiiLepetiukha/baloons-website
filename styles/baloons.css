@@ -79,3 +79,28 @@ a:hover {
 .navigation a:hover {
     background-color: #C4E8B1;
 }
+
+label,
+input,
+textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form {
+    width: 30em;
+}
+
+.form-control {
+    margin-bottom: 1em;
+}
+
+textarea {
+    min-height: 10em;
+}
+
+.form-control input,
+.form-controltextarea {
+    padding: 0.5em;
+}
