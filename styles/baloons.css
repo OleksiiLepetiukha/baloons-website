@@ -74,10 +74,12 @@ a:hover {
     font-weight: bold;
     display: block;
     padding: .75em 1em;
+    transition: all .5s ease-in-out;
 }
 
 .navigation a:hover {
     background-color: #C4E8B1;
+    font-size: 1.2em;
 }
 
 label,
