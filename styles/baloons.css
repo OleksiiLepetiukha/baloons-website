@@ -65,7 +65,13 @@ a:hover {
     padding: 0;
     background-color: #D9EECE;
     border: 1px solid #4c0072;
-    display: flex;
+    
+}
+
+@media screen and (min-width: 30em) {
+    .navigation {
+        display: flex;
+    }
 }
 
 .navigation a {
@@ -79,7 +85,7 @@ a:hover {
 
 .navigation a:hover {
     background-color: #C4E8B1;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 label,
@@ -88,10 +94,17 @@ textarea {
     display: block;
     width: 100%;
     box-sizing: border-box;
+    margin-bottom: 0.5em;
 }
 
 form {
-    width: 30em;
+    width: 15em;
+}
+
+@media screen and (min-width: 40em) {
+    form{
+        width: 30em;
+    }
 }
 
 .form-control {
@@ -105,4 +118,10 @@ textarea {
 .form-control input,
 .form-controltextarea {
     padding: 0.5em;
+}
+
+button {
+    width: 20%;
+    height: 20%;
+    background-color: green;
 }
